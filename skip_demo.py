@@ -2,7 +2,7 @@
 #!encoding=utf-8
 import wx
 
-#展示了event的PropagationLevel
+#  #展示了event的PropagationLevel
 class MainFrame(wx.Frame):
     def __init__(self, parent, ID, title):
         wx.Frame.__init__(self, parent, ID, title,
